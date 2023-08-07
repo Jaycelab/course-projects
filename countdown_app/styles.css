@@ -1,0 +1,61 @@
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main {
+  background-color: rgba(204, 204, 204, 0.6);
+  background-size: 100vh;
+  max-width: 50%;
+  color: rgb(22, 22, 22);
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.title {
+  display: grid;
+  font-size: 38x;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(2, 2, 2);
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: #00a0ac;
+}
+
+#save-btn {
+  background: rgb(0, 112, 60);
+}
+
+#save-el {
+  font-weight: bold;
+  font-size: 15px;
+}

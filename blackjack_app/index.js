@@ -1,6 +1,6 @@
 let firstCard = 2;
 let secondCard = 11;
-let cards = [firstCard, secondCard];``
+let cards = [firstCard, secondCard];
 let sum = firstCard + secondCard;
 let hasBlackJack = false;
 let isAlive = true;
@@ -32,5 +32,7 @@ function newCard() {
   alert("Drawing a new card from the deck!");
   let card = 4;
   sum += card;
-  startGame();
+  cards.push(card);
+  console.log(cards);
+  renderGame();
 }

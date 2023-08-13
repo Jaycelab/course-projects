@@ -1,5 +1,5 @@
-let firstCard = 2;
-let secondCard = 11;
+let firstCard = getRandomCard();
+let secondCard = getRandomCard();
 let cards = [firstCard, secondCard];
 let sum = firstCard + secondCard;
 let hasBlackJack = false;
@@ -13,9 +13,17 @@ function startGame() {
   renderGame();
 }
 
+function getRandomCard() {
+  return 5;
+}
+
 function renderGame() {
+  cardEl.textContent = "Cards: ";
+  for (let i = 0; i < cards.length; i++) {
+    cardEl.textContent += cards[i] + " ";
+  }
+
   sumEl.textContent = "Sum: " + sum;
-  cardEl.textContent = "Cards: " + cards[0] + "-" + cards[1];
   if (sum <= 20) {
     message = "Do you want to hit?";
   } else if (sum === 21) {
@@ -29,8 +37,8 @@ function renderGame() {
 }
 
 function newCard() {
+  let card = getRandomCard();
   alert("Drawing a new card from the deck!");
-  let card = 4;
   sum += card;
   cards.push(card);
   console.log(cards);

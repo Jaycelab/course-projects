@@ -9,6 +9,7 @@ body {
   background-image: url("images/background.jpg");
   max-width: 100%;
   background-size: cover;
+  height: fit-content;
   font-weight: bold;
   color: white;
 

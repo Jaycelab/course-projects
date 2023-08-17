@@ -1,0 +1,31 @@
+* {
+  background-color: #030303;
+  color: #fff;
+  font-family: "Waiting for the Sunrise", cursive, "Courier New", Courier,
+    monospace;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3rem;
+  width: 50%;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.nav-links {
+  display: flex;
+  margin: 10px 10px;
+  text-align: center;
+
+  justify-content: space-around;
+}
+
+section {
+  display: flex;
+  margin-bottom: 0;
+}

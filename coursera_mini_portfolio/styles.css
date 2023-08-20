@@ -3,7 +3,10 @@
   color: #fff;
   font-family: "Waiting for the Sunrise", cursive, "Courier New", Courier,
     monospace;
+  margin: 0;
 }
+
+/*LOGO*/
 
 .logo {
   display: block;
@@ -13,16 +16,17 @@
   width: 50%;
 }
 
-nav ul {
-  list-style: none;
+/* NAV BAR*/
+nav ul a {
+  text-decoration: none;
 }
 
 .nav-links {
   display: flex;
-  margin: 10px 10px;
+  list-style: none;
   text-align: center;
-
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0.1rem 0.1rem 1rem 1rem;
 }
 
 section {

@@ -1,35 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap");
+
 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
   background-color: #030303;
   color: #fff;
   font-family: "Waiting for the Sunrise", cursive, "Courier New", Courier,
     monospace;
-  margin: 0;
 }
-
-/*LOGO*/
 
 .logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 3rem;
-  width: 50%;
+  display: flex;
+  max-width: 800px;
+  margin: 24px auto;
+  padding-bottom: 40px;
 }
 
-/* NAV BAR*/
-nav ul a {
-  text-decoration: none;
+.nav-bar {
+  margin: 10px 10px;
+  padding: 10px;
 }
 
 .nav-links {
   display: flex;
-  list-style: none;
-  text-align: center;
-  justify-content: space-between;
-  margin: 0.1rem 0.1rem 1rem 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-section {
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-left: 15px;
+}
+
+.hero-container {
   display: flex;
-  margin-bottom: 0;
+  flex-wrap: wrap;
+
+  margin-bottom: 15px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  box-shadow: inset 0 -3em 3em rgba(100, 100, 100, 0.829),
+    0 0 0 2px rgb(253, 252, 252), 0.3em 0.3em 1em rgba(56, 47, 47, 0.3);
+}
+
+.cards {
+  max-width: 2000px;
+  margin: 100px auto;
+  padding: 2px;
+  display: grid;
+  justify-items: center;
+
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.cards h2 {
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.cards p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 2px auto;
+  padding: 10px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding-bottom: 2px;
+}
+
+.one {
+  background-color: rgba(95, 95, 95, 0.822);
+  border-radius: 10px;
+}
+
+.two {
+  background-color: rgba(95, 95, 95, 0.322);
+  background-size: contain;
+}
+
+.three {
+  background-color: rgba(95, 95, 95, 0.162);
+  border-radius: 10px;
+}
+
+footer {
 }

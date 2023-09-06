@@ -9,7 +9,8 @@
   </head>
 
   <body>
-    <header>
+   <!--  LOGO  -->
+    <header class="logo-container">
       <a href="#">
         <img class="logo" src="./images/Asset 4@3x.png" alt="logo"
       /></a>
@@ -18,58 +19,63 @@
 
     <nav class="nav-bar">
       <ul class="nav-links">
+        <a href="#">
         <li>Home</li>
+      </a>
+      <a href="#products">
         <li>Products</li>
+      </a>
+      <a href="#services">
         <li>Services</li>
+      </a>
+      <a href="#contact">
         <li>Contact</li>
+      </a>
       </ul>
     </nav>
 
     <main>
       <!--   CARDS SECTION -->
       <div class="hero-container">
-        <section class="hero">
+        <header class="hero">
           <h1>5 days only. Sept. 1 - Sept 5th BUY ONE, GET ONE FREE!</h1>
-          <p>
+          <span><p>
             Valid on all products online and in store. Excludes clearanced
             items, no additional discounts items.
-          </p>
+          </p></span>
       
-        </section>
+        </header>
       </div>
    <!--    HEADER PHOTO -->
       <div class="header-container">
         <img class="header-image" src="./images/header.jpeg" alt="">
       </div>
+
       <!-- CARDS GRID-->
       <div class="cards">
         
         <!-- CARD 1 -->
        
-        <div class="one">
-          <header>
-            <div>
+        <div id="products">
+        
               <h2>Products</h2>
-            </div>
-            <p>
+              <p>
               Mangata and Gallo is an independent family jeweller with over 40
               years of experience and expertise in the beautiful world of
               jewellery. We are passionate about offering the highest quality of
               service, and our knowledge guarantees you and your precious
               jewellery will be exceptionally cared for. We specialize in the
               finest quality jewellery repairs, remodelling, and custom designs.
-            </p>
-            <div class='card-image'><img src="images/one.jpg" alt="" /><a href="contact.html" target="_blank">Contact Us</a></div>
-          </header>
-          </div>
-
+              </p>
+           
+            <div class='card-image'>
+              <img src="images/one.jpg" alt="contact" /><a href="mailto:email@example.com">Contact Us</a>
+        </div>
+      </div>
         <!-- CARD 2 -->
 
-        <div class="two">
-          <header>
-            <div>
+        <div id="services">
               <h2>Services</h2>
-            </div>
             <p>
               Immerse yourself in a seamless and educational experience toward
               the perfect engagement ring as we guide you through the entire
@@ -81,17 +87,16 @@
               experienced jewellers for them to work their craft in creating
               your perfect jewellery piece.
             </p>
-            <div class='card-image'><img src="images/two.jpg" alt="" /><a href="contact.html" target="_blank">Contact Us</a></div>
-          </header>
+         
+            <div class='card-image'>
+              <img src="images/two.jpg" alt="contact" /><a href="mailto:email@example.com">Contact Us</a>
+            </div>
         </div>
 
         <!--   CARD 3 -->
 
-        <div class="three">
-          <header>
-            <div>
+        <div id="contact">
               <h2>Contact</h2>
-            </div>
             <p>
               We take pride in offering a one-on-one, personalized design
               service that combines exceptional workmanship with meticulous
@@ -101,11 +106,14 @@
           them for pickup. We'd love to hear from you! Whether you're curious
           about our products or our services, we're ready to answer any and all
           questions you may have.
-          <div class='card-image'><img src="images/three.jpg" alt="" /><a href="contact.html" target="_blank">Contact Us</a></div>
-          </header>
+        </p>
+          <div class='card-image'>
+            <img src="images/three.jpg" alt="contact" /><a href="mailto:email@example.com">Contact Us</a>
+          </div>
+      
         </div>
 <!-- END CARDS -->
-
+      </div>
 <!-- FOOTER -->
     <footer>
       <div class="footer">

@@ -3,7 +3,7 @@
 ---
 
 **Jewerly Portfolio**
-![jewelry-page](https://github.com/Jaycelab/Projects/blob/main/Coursera/mini_portfolio/images/mini-portfolio.png)
+![jewelry-page](https://github.com/Jaycelab/Projects/blob/main/Coursera/mini_portfolio/images/mini-portfolio2.png)
 
 ---
 

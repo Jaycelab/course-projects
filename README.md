@@ -1,4 +1,4 @@
-# A collection of mini projects from Coursera's Full-stack Development Coursa, Scrimba's Front-End Career Path and Udemy Online Courses.
+# Mini projects from Coursera Full-stack, Udemy Web Dev and Scrimba's Front-End Path
 
 ---
 

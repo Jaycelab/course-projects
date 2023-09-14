@@ -5,9 +5,13 @@
   margin: 0;
   font-family: "Inclusive Sans", sans-serif;
   padding: 0;
+
   font-size: 1.1rem;
 }
 
+.lead {
+  text-align: center;
+}
 .gradient-background {
   background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
   background-size: 180% 180%;
@@ -26,6 +30,12 @@
   }
 }
 
+.but-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: auto;
+}
 h1 {
   text-align: center;
 }
@@ -33,8 +43,9 @@ h1 {
 span {
   font-style: italic;
   color: #fff;
-  font-size: 4.1rem;
+  font-size: 3.5rem;
 }
+
 .icon-square {
   width: 3rem;
   height: 3rem;

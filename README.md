@@ -14,8 +14,10 @@
 [![jewelry-page](https://github.com/Jaycelab/Projects/blob/main/Coursera/mini_portfolio/images/mini-portfolio.png)](https://mangatagallopage.vercel.app/)
 
 ## **Blackjack**
-![blackjack](https://github.com/Jaycelab/Projects/blob/main/Scrimba/blackjack_app/images/blackjack-finished.png)
+[![blackjack](https://github.com/Jaycelab/Projects/blob/main/Scrimba/blackjack_app/images/blackjack-finished.png)](https://blackjack-21.vercel.app/)
+
 
 ## **Number Counter**
 ![counter-number](https://github.com/Jaycelab/Projects/blob/main/Scrimba/countdown_app/images/counter-finished.png)
 </div>
+

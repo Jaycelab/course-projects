@@ -1,16 +1,23 @@
-# Mini projects from Coursera Full-stack, Udemy Web Dev and Scrimba's Front-End Path
+<div id="header" align="center">
+  
+#  :clipboard: Mini projects from Coursera Full-stack, Udemy Web Dev and Scrimba's Front-End
+### (Screenshot redirects to associated website)
 
 ---
 
-**Bootstrap Page**
-![bootstrap-page](https://github.com/Jaycelab/Projects/blob/main/Udemy/bootstrap-project/images/web1.png)
-![bootstrap-page](https://github.com/Jaycelab/Projects/blob/main/Udemy/bootstrap-project/images/web2.png)
+## **Bootstrap Page**
+[![bootstrap-page](https://github.com/Jaycelab/Projects/blob/main/Udemy/bootstrap-project/images/web1.png)](https://tindoge.vercel.app/)
 
-**Jewerly Portfolio**
-![jewelry-page](https://github.com/Jaycelab/Projects/blob/main/Coursera/mini_portfolio/images/mini-portfolio.png)
+[![bootstrap-page](https://github.com/Jaycelab/Projects/blob/main/Udemy/bootstrap-project/images/web2.png)](https://tindoge.vercel.app/)
 
-**Blackjack**
-![blackjack](https://github.com/Jaycelab/Projects/blob/main/Scrimba/blackjack_app/images/blackjack-finished.png)
+## **Jewerly Portfolio**
+[![jewelry-page](https://github.com/Jaycelab/Projects/blob/main/Coursera/mini_portfolio/images/mini-portfolio.png)](https://mangatagallopage.vercel.app/)
 
-**Number Counter**
+## **Blackjack**
+[![blackjack](https://github.com/Jaycelab/Projects/blob/main/Scrimba/blackjack_app/images/blackjack-finished.png)](https://blackjack-21.vercel.app/)
+
+
+## **Number Counter**
 ![counter-number](https://github.com/Jaycelab/Projects/blob/main/Scrimba/countdown_app/images/counter-finished.png)
+</div>
+

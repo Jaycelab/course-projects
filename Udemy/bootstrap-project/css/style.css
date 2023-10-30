@@ -30,12 +30,6 @@
   }
 }
 
-.but-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: auto;
-}
 h1 {
   text-align: center;
 }

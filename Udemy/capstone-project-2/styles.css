@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  position: relative;
+}
+.cloud {
+  max-width: 1600px;
+  height: 100vh;
+  position: absolute;
+}
+
+.top img {
+  height: 250px;
+  width: 200px;
+  margin: 0 20px;
+}
+
+.plane {
+  position: absolute;
+}
+
+.dragon {
+  position: absolute;
+  left: 1200px;
+  top: 92px;
+}
+
+.header {
+  position: absolute;
+  font-size: 2rem;
+}
